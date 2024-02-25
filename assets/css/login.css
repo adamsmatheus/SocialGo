@@ -26,7 +26,7 @@ input{
 }
 
 input::placeholder{
-    color: antiquewhite;
+    color: #000000;
 }
 
 .container-login{

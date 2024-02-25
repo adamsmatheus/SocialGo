@@ -7,7 +7,7 @@ import (
 
 var rotasUsuario = []Rota{
 	{
-		URI:                "/criar-cadastro",
+		URI:                "/criar-usuario",
 		Metodo:             http.MethodGet,
 		Funcao:             controllers.CarregaPaginaCadastroUsuario,
 		RequerAutenticacao: false,
